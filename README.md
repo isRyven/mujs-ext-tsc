@@ -1,0 +1,1 @@
+TypeScript compiler that runs on [mujs-ext](https://github.com/isRyven/mujs-ext).
