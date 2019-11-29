@@ -1,0 +1,6 @@
+add_executable(test_mujs_extension test_mujs_extension.c)
+target_link_libraries(test_mujs_extension m mujs)
+add_test(NAME test_mujs_extension COMMAND test_mujs_extension)
+
+add_executable(bench_mujs_key_access bench_mujs_key_access.c)
+target_link_libraries(bench_mujs_key_access m mujs)
